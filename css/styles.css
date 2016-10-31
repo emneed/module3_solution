@@ -1,0 +1,83 @@
+* {
+	font-family: 'Raleway', sans-serif;
+	box-sizing: border-box;
+}
+
+#header-nav {
+	border-radius: 0;
+	border: 0;
+	background-color: #3a5787;
+}
+
+.navbar-header {
+	padding-top: 10px;
+}
+
+.navbar-header h1 {
+	font-family: 'Raleway', sans-serif;
+	color: #f9f6e3;
+	font-size: 2em;
+	font-weight: bold;
+	margin: 0px;
+	padding-top: 2px;
+}
+
+.navbar-header a:hover, .navbar-header a:focus{
+	text-decoration: none;
+}
+
+.navbar-nav {
+	visibility: hidden;
+}
+
+ul.nav li span{
+	font-size: 1.3em;
+	font-weight: bold;
+	color: white;
+}
+
+body p{
+	margin: 10px 0px 10px 0px;
+	text-align: justify;
+}
+
+div.section {
+	padding: 0px 15px 10px 15px;
+	float: left;
+}
+
+div.section p {
+	padding: 10px 15px 10px 15px;
+	border: 1px solid black;
+	background-color: #c2d3ef;
+}
+
+div.section p.text-center {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+p {
+	font-size: 1.1em;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 1.75em;
+}
+
+@media (max-width: 767px) {
+	.navbar-header h1 {
+		margin-left: 15px;
+		margin-top: 5px;
+		font-size: 2.25em;
+	}
+
+	.navbar-nav {
+		visibility: visible;
+	}
+
+	.navbar-header button {
+		margin-bottom: 17px;
+	}
+}
